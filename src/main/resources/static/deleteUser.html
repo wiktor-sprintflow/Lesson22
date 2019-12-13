@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body style="margin-left: 10px">
+<h3>Usuń użytkowniów</h3>
+Wprowadź przynajmniej jedno kryterium użytkownika do usunięcia. <br/>
+
+<div class="margin_right">
+    <form method="post" action="deleteUser">
+        <div class="form-group">
+            <input type="text" class="form-control" name="firstName" placeholder="Podaj imię"><br/>
+            <input type="text" class="form-control" name="lastName" placeholder="Podaj nazwisko"><br/>
+            <input type="text" class="form-control" name="age" placeholder="Podaj wiek"><br/>
+            <button type="submit" class="btn btn-primary">Usuń</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
